@@ -1,5 +1,5 @@
 ﻿  scorepoint.c
-C:\devC\day02\day02\scorepoint.c(25,7): warning C4013: 'print'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-scorepoint.obj : error LNK2005: _main이(가) if_ex2.obj에 이미 정의되어 있습니다.
-scorepoint.obj : error LNK2019: _print_main 함수에서 참조되는 확인할 수 없는 외부 기호
-C:\devC\day02\Debug\day02.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+C:\devC\day02\day02\scorepoint.c(25,9): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\devC\day02\day02\scorepoint.c(25,9): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+C:\devC\day02\day02\scorepoint.c(25,9): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%d'에 필요합니다.
+  day02.vcxproj -> C:\devC\day02\Debug\day02.exe

@@ -22,7 +22,7 @@ int main() {
 	else {
 		ch = 'F';
 	}
-	print("%d학점입니다.");
+	printf("%d학점입니다.");
 
 
 
