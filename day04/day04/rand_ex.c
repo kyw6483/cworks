@@ -10,7 +10,7 @@ int main() {
 	srand(time(NULL));  //시간이 흐르므로 seed 값이 변경됨
 	printf("%d\n", rand());
 
-	//주사위 만들기 - 10번 던지
+	//주사위 만들기 - 10번 던지기
 	for (i = 0; i < 10; i++) {
 		dice = rand() % 6 + 1;  //1 ~ 6이 생성
 		printf("주사위 눈 : %d\n", dice);
